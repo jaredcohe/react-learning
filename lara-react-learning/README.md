@@ -21,4 +21,4 @@ var Avatar = React.createClass({
 
 React.render(<Avatar />, document.body)
 
-# to 6
+# to 8
