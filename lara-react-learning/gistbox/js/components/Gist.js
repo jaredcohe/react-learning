@@ -6,8 +6,7 @@ var Gist = React.createClass({
             
             <div>
           
-                {this.props.username}'s last Gist is <a href={this.props.url}>here</a>.
-                
+                {this.props.username}s last Gist is <a href={this.props.url} target="blank">here</a>.
           
             </div>
             
@@ -16,5 +15,3 @@ var Gist = React.createClass({
     
     
 })
-
-React.render(<Gist />, document.body)
